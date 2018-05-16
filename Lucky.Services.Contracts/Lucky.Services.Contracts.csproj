@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{06E8C6BF-EC5B-4B13-A007-F777784CA7C5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lucky.Services.Contracts</RootNamespace>
+    <AssemblyName>Lucky.Services.Contracts</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Lucky.Business, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Framework_Lucky 1.0\Lucky FrameWork\Business\bin\Debug\Lucky.Business.dll</HintPath>
+    </Reference>
+    <Reference Include="Lucky.CFG, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Framework_Lucky 1.0\Lucky FrameWork\CFG\bin\Debug\Lucky.CFG.dll</HintPath>
+    </Reference>
+    <Reference Include="Lucky.Entity, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Framework_Lucky 1.0\Lucky FrameWork\Entity\bin\Debug\Lucky.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataContract\AppMovilServiceRequest.cs" />
+    <Compile Include="DataContract\EAProServiceRequest.cs" />
+    <Compile Include="DataContract\EstadoServiceRequest.cs" />
+    <Compile Include="DataContract\Ges_CampaniaServiceRequest.cs" />
+    <Compile Include="DataContract\Ges_ClienteServiceRequest.cs" />
+    <Compile Include="DataContract\Ges_MapsServiceRequest.cs" />
+    <Compile Include="DataContract\Ges_OperativaServiceRequest.cs" />
+    <Compile Include="DataContract\Ges_ReporteClienteRequest.cs" />
+    <Compile Include="DataContract\MenuServiceRequest.cs" />
+    <Compile Include="DataContract\ReporteServiceRequest.cs" />
+    <Compile Include="DataContract\SincronizacionServiceRequest.cs" />
+    <Compile Include="DataContract\UsuarioServiceRequest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceContract\IAppMovil.cs" />
+    <Compile Include="ServiceContract\IEAProService.cs" />
+    <Compile Include="ServiceContract\IEstadoService.cs" />
+    <Compile Include="ServiceContract\IGes_CampaniaService.cs" />
+    <Compile Include="ServiceContract\IGes_ClienteService.cs" />
+    <Compile Include="ServiceContract\IGes_MapsService.cs" />
+    <Compile Include="ServiceContract\IGes_OperativaService.cs" />
+    <Compile Include="ServiceContract\IGes_ReporteCliente.cs" />
+    <Compile Include="ServiceContract\IMenuService.cs" />
+    <Compile Include="ServiceContract\IReporteService.cs" />
+    <Compile Include="ServiceContract\ISincronizacionService.cs" />
+    <Compile Include="ServiceContract\IUsuarioService.cs" />
+    <Compile Include="ServiceImpl\AppMovilService.cs" />
+    <Compile Include="ServiceImpl\EAProService.cs" />
+    <Compile Include="ServiceImpl\EstadoService.cs" />
+    <Compile Include="ServiceImpl\Ges_CampaniaService.cs" />
+    <Compile Include="ServiceImpl\Ges_ClienteService.cs" />
+    <Compile Include="ServiceImpl\Ges_MapsService.cs" />
+    <Compile Include="ServiceImpl\Ges_OperativaService.cs" />
+    <Compile Include="ServiceImpl\Ges_ReporteCliente.cs" />
+    <Compile Include="ServiceImpl\MenuService.cs" />
+    <Compile Include="ServiceImpl\ReporteService.cs" />
+    <Compile Include="ServiceImpl\SincronizacionService.cs" />
+    <Compile Include="ServiceImpl\UsuarioService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

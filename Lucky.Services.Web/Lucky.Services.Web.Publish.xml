@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Users\psalas\_Pablo Salas Alvarez\Publicaciones\WCF" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Perfil1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Ges_ReporteCliente.svc" publishTime="09/02/2012 17:27:42" />
+    <file relUrl="bin/Lucky.CFG.pdb" publishTime="01/17/2017 02:14:06" />
+    <file relUrl="Global.asax" publishTime="08/20/2012 15:11:48" />
+    <file relUrl="ReporteService.svc" publishTime="08/20/2012 15:11:48" />
+    <file relUrl="bin/log4net.dll" publishTime="06/29/2011 23:45:48" />
+    <file relUrl="bin/Lucky.Business.pdb" publishTime="01/17/2017 02:14:09" />
+    <file relUrl="bin/Lucky.Data.dll" publishTime="01/17/2017 02:14:07" />
+    <file relUrl="Ges_OperativaService.svc" publishTime="08/20/2012 15:11:48" />
+    <file relUrl="bin/Lucky.Services.Contracts.dll" publishTime="09/10/2017 17:17:35" />
+    <file relUrl="Ges_ClienteService.svc" publishTime="10/11/2012 15:35:28" />
+    <file relUrl="SincronizacionService.svc" publishTime="08/20/2012 15:11:48" />
+    <file relUrl="bin/Lucky.Services.Contracts.pdb" publishTime="09/10/2017 17:17:35" />
+    <file relUrl="Ges_CampaniaService.svc" publishTime="08/20/2012 15:11:48" />
+    <file relUrl="bin/Telerik.Web.UI.dll" publishTime="08/25/2009 17:07:46" />
+    <file relUrl="bin/Lucky.Services.Web.dll" publishTime="10/29/2017 01:22:58" />
+    <file relUrl="EstadoService.svc" publishTime="08/20/2012 15:11:48" />
+    <file relUrl="bin/Newtonsoft.Json.dll" publishTime="06/29/2011 23:45:48" />
+    <file relUrl="bin/Lucky.Entity.pdb" publishTime="01/17/2017 02:12:40" />
+    <file relUrl="bin/Lucky.Data.pdb" publishTime="01/17/2017 02:14:07" />
+    <file relUrl="SeguridadService.svc" publishTime="08/20/2012 15:11:48" />
+    <file relUrl="EAProService.svc" publishTime="10/11/2012 15:35:28" />
+    <file relUrl="bin/Lucky.Business.dll" publishTime="01/17/2017 02:14:09" />
+    <file relUrl="bin/Lucky.Services.Web.pdb" publishTime="10/29/2017 01:22:57" />
+    <file relUrl="bin/Lucky.Entity.dll" publishTime="01/17/2017 02:12:41" />
+    <file relUrl="bin/Microsoft.ApplicationBlocks.Data.dll" publishTime="07/13/2010 12:52:24" />
+    <file relUrl="bin/LuckyMer.Contracts.dll" publishTime="03/31/2012 20:52:38" />
+    <file relUrl="Web.config" publishTime="09/11/2017 06:05:34" />
+    <file relUrl="MenuService.svc" publishTime="08/20/2012 15:11:48" />
+    <file relUrl="AppMovil.svc" publishTime="08/20/2012 15:11:48" />
+    <file relUrl="Ges_MapsService.svc" publishTime="08/20/2012 15:11:48" />
+    <file relUrl="bin/Lucky.CFG.dll" publishTime="01/17/2017 02:14:06" />
+  </publishProfile>
+</publishData>

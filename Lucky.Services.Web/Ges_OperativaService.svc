@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Service="Lucky.Services.Contracts.ServiceImpl.Ges_OperativaService"%>
