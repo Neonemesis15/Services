@@ -33,3 +33,17 @@ D:\ProyectoLucky\LuckyServices\Lucky.Services.Contracts\bin\Debug\Lucky.Data.pdb
 D:\ProyectoLucky\LuckyServices\Lucky.Services.Contracts\obj\Debug\ResolveAssemblyReference.cache
 D:\ProyectoLucky\LuckyServices\Lucky.Services.Contracts\obj\Debug\Lucky.Services.Contracts.dll
 D:\ProyectoLucky\LuckyServices\Lucky.Services.Contracts\obj\Debug\Lucky.Services.Contracts.pdb
+E:\UNIVERSIDAD\15.-ProyectLucky-Fuentes\Services\Lucky.Services.Contracts\bin\Debug\Lucky.Services.Contracts.dll
+E:\UNIVERSIDAD\15.-ProyectLucky-Fuentes\Services\Lucky.Services.Contracts\bin\Debug\Lucky.Services.Contracts.pdb
+E:\UNIVERSIDAD\15.-ProyectLucky-Fuentes\Services\Lucky.Services.Contracts\bin\Debug\log4net.dll
+E:\UNIVERSIDAD\15.-ProyectLucky-Fuentes\Services\Lucky.Services.Contracts\bin\Debug\Lucky.Data.dll
+E:\UNIVERSIDAD\15.-ProyectLucky-Fuentes\Services\Lucky.Services.Contracts\bin\Debug\Telerik.Web.UI.dll
+E:\UNIVERSIDAD\15.-ProyectLucky-Fuentes\Services\Lucky.Services.Contracts\bin\Debug\LuckyMer.Contracts.dll
+E:\UNIVERSIDAD\15.-ProyectLucky-Fuentes\Services\Lucky.Services.Contracts\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\UNIVERSIDAD\15.-ProyectLucky-Fuentes\Services\Lucky.Services.Contracts\bin\Debug\Lucky.Business.pdb
+E:\UNIVERSIDAD\15.-ProyectLucky-Fuentes\Services\Lucky.Services.Contracts\bin\Debug\Lucky.CFG.pdb
+E:\UNIVERSIDAD\15.-ProyectLucky-Fuentes\Services\Lucky.Services.Contracts\bin\Debug\Lucky.Entity.pdb
+E:\UNIVERSIDAD\15.-ProyectLucky-Fuentes\Services\Lucky.Services.Contracts\bin\Debug\Lucky.Data.pdb
+E:\UNIVERSIDAD\15.-ProyectLucky-Fuentes\Services\Lucky.Services.Contracts\obj\Debug\Lucky.Services.Contracts.csprojResolveAssemblyReference.cache
+E:\UNIVERSIDAD\15.-ProyectLucky-Fuentes\Services\Lucky.Services.Contracts\obj\Debug\Lucky.Services.Contracts.dll
+E:\UNIVERSIDAD\15.-ProyectLucky-Fuentes\Services\Lucky.Services.Contracts\obj\Debug\Lucky.Services.Contracts.pdb

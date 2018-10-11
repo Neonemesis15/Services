@@ -1,0 +1,4 @@
+Lucky.Services.Contracts/bin/Release/*
+Lucky.Services.Contracts/obj/*
+Lucky.Services.Web/bin/Release/*
+Lucky.Services.Web/obj/*
